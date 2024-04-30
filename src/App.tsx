@@ -87,15 +87,15 @@ function App() {
   };
 
   const handleUpdateTitle = (value: string): void => {
-    if (currentEditedItem) {
-      setCurrentEditedItem(prev => ({ ...prev, title: value }));
-    }
+    // if (currentEditedItem) {
+    //   setCurrentEditedItem(prev => ({ ...prev, title: value }));
+    // }
   };
 
   const handleUpdateDescription = (value: string): void => {
-    if (currentEditedItem) {
-      setCurrentEditedItem(prev => ({ ...prev, description: value }));
-    }
+    // if (currentEditedItem) {
+    //   setCurrentEditedItem(prev => ({ ...prev, description: value }));
+    // }
   };
 
   const handleUpdateToDo = (): void => {
